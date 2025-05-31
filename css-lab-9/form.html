@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>>Подписка на рассылку сайта "Постройка"</title>
+        <link rel="stylesheet" href="global.css">
+    </head>
+    <body>
+        <h1>Регистрация подписчика</h1>
+        <form class="subform" method="post" action="submit.html">
+            <p>
+                <label class="label" for="name">Как вас зовут?</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label class="label" for="email">Ваш адрес электронной почты</label>
+                <input type="text" name="email" id="enail">
+            </p>
+            <p>
+                <span class="label" >Навыки квартирного ремонта</span>
+                <label><input type="radio" name="skill" value="novice">Новичок</label>
+                <label><input type="radio" name="skill" value="intermediate">Опытный</label>
+                <label><input type="radio" name="skill" value="advanced">Профи</label>
+            </p>
+            <p>
+                <labe class="label" l for="refer">Откуда вы узнали о нас?</labe>
+                <select name="refer" id="refer">
+                    <option value="null">Выберите вариант</option>
+                    <option value="1">От друзей</option>
+                    <option value="2">Телевидение</option>
+                    <option value="3">Газеты/Журналы</option>
+                    <option value="4">Интернет</option>
+                </select>
+            </p>
+            <p>
+                <label class="label"  for="comments">Дополнительные комментарии</label>
+                <textarea name="comments" cols="35" rows="4" id="comments"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Подписаться">
+            </p>
+        </form>
+    </body>
+</html>
