@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Суши-бар Йокогама. Горячие блюда, суши, роллы, напитки.">
+        <meta name="keywords" content="онлайн-заказ, навынос, суши, роллы, Йокогама">
+        <meta name="author" content="Обучающиеся ТИУ: Заказ еды навынос">
+        <meta name="generator" content="Блокнот">
+        <title>Йокогама: суши-бар</title>
+        <link rel="stylesheet" href="styles/1.1.css" type="text/css">
+        <link rel="stylesheet" href="styles/3.2.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em></h1>
+            <p><img src="images/Суши3.jpg"></p>
+        </header>
+        <nav> 
+            <div><a href="index.html">Глaвнaя</a></div> 
+            <div><a href="catalogosn.html">Гopячиe блюда</а></div> 
+            <div><a href="catalogsushi.html">Cyши</a></div> 
+            <div><a href="catalogroll.html">Poллы</a></div> 
+            <div><a href="pricelist.html">Пpaйc-лиcт</a></div> 
+            <div><a href="order.html">Заказ столиков</a></div> 
+            <div><a href="#">Зака навынос</a></div> 
+        </nav> 
+        <main>
+            <h2>Заказ еды навынос</h2>
+            <form action="mailto:order@yokogama.ru" method="post" enctype="text/plain">
+                <p>
+                    <label for="phone">По какому телефону Вам перезвонить?</label><br>
+                    <input type="text" name="phone" id="phone" required>
+                </p>
+                <p>
+                    <label for="dishes">Что желаете заказать?</label><br>
+                    <select name="dishes" id="dishes" size="6" multiple>
+                        <optgroup label="Горячие блюда">
+                            <option value="fuzilli">Фузилли с кальмаром</option>
+                            <option value="tomyam">Том Ям</option>
+                            <option value="gedza">Гёдза</option>
+                        </optgroup>
+                        <optgroup label="Роллы">
+                            <option value="okinava">Ролл "Окинава"</option>
+                            <option value="sakura">Ролл "Сакура"</option>
+                            <option value="hokkaido">Ролл "Хоккайдо"</option>
+                            <option value="tanuki">Ролл "Тануки"</option>
+                            <option value="samurai">Ролл "Самурай"</option>
+                            <option value="asahi">Ролл "Асахи"</option>
+                        </optgroup>
+                        <optgroup label="Суши">
+                            <option value="maguro">Суши "Магуро"</option>
+                            <option value="ebi">Суши "Эби"</option>
+                            <option value="unagi">Суши "Унаги"</option>
+                            <option value="tamagoyaki">Суши "Тамагояки"</option>
+                            <option value="ika">Суши "Ика"</option>
+                        </optgroup>
+                        <optgroup label="Безалкогольные напитки">
+                            <option value="tea">Зелёный чай"</option>
+                            <option value="juice">Сок манго</option>
+                            <option value="water">Газированная вода</option>
+                            <option value="yudzu">Лимонад юдзу</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    Выберите насколько Вам понравился наш ассортимент: <br>
+                    <input type="range" min="1" max="10" value="8">   
+                </p>
+                <p>
+                    <fieldset>
+                        <legend>Имя и фамилия</legend>
+                        <p>
+                            Имя<br>
+                            <input type="text" name="name1">
+                        </p>
+                        <p>
+                            Фамилия<br>
+                            <input type="text" name="name2">
+                        </p>
+                    </fieldset>
+                </p>
+                <p><input type="submit"></p>
+            </form>
+        <footer>
+            <p>Ждем вас!</p>
+            <address>Наш адрес: ул. Мельникайте, 70.</address>
+            <p>
+                &copy; студенты кафедры &laquo;бизнес - инфрматики и математики&raquo;. <br>
+                Все права защищены.
+            </p>
+        </footer>
+    </body>
+</html>
